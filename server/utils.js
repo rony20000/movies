@@ -1,5 +1,4 @@
 import fetch from "node-fetch";
-import jwt from "jsonwebtoken"
 import { client } from "./db.js";
 
 export const protect = (req, res, next) => {
